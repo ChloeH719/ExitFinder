@@ -1,0 +1,16 @@
+PODS:
+  - DynamsoftCameraEnhancer (2.1.1)
+
+DEPENDENCIES:
+  - DynamsoftCameraEnhancer (= 2.1.1)
+
+SPEC REPOS:
+  trunk:
+    - DynamsoftCameraEnhancer
+
+SPEC CHECKSUMS:
+  DynamsoftCameraEnhancer: aaf29c0cb3afb77a2e5ee03920b765fd1a3bece3
+
+PODFILE CHECKSUM: 34008e88766be49b1966e8ea621dcba64f510eba
+
+COCOAPODS: 1.11.3

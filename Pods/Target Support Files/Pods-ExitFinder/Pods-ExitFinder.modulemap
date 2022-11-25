@@ -1,0 +1,6 @@
+framework module Pods_ExitFinder {
+  umbrella header "Pods-ExitFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}

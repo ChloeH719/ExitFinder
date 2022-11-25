@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9304EFECCF99FE99622F00B7C1781735 /* DynamsoftCameraEnhancer */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D90AC22DCB1C5ED25A4203B4287FBFB3 /* Build configuration list for PBXAggregateTarget "DynamsoftCameraEnhancer" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = DynamsoftCameraEnhancer;
+			productName = DynamsoftCameraEnhancer;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		21E02568CF94781853646D359DD0A32C /* Pods-ExitFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8201BE9FBE87B6135B0B42F28FC82B4 /* Pods-ExitFinder-dummy.m */; };
+		C7F3C16BF61356B04E2E24630C580551 /* Pods-ExitFinder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E50C241EF5C71C9B34A84EEE974E77 /* Pods-ExitFinder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		894B45A9CA48C521FDB63938B43B3658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9304EFECCF99FE99622F00B7C1781735;
+			remoteInfo = DynamsoftCameraEnhancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36B2DFC3D7A8848DD52FEA254845F06C /* DynamsoftCameraEnhancerSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamsoftCameraEnhancerSDK.h; path = DynamsoftCameraEnhancer.framework/Headers/DynamsoftCameraEnhancerSDK.h; sourceTree = "<group>"; };
+		3FFF523D7EFB9192A0CEA3DDC99C10A5 /* Pods-ExitFinder */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ExitFinder"; path = Pods_ExitFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48DB06CD042FA784756A3CC8A64E2113 /* DynamsoftCameraEnhancer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DynamsoftCameraEnhancer.framework; sourceTree = "<group>"; };
+		504C9454FE1BF65CF2437B5551FE016B /* Pods-ExitFinder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExitFinder-Info.plist"; sourceTree = "<group>"; };
+		636635B5578C7189CB85E0A0AC53A86D /* Pods-ExitFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExitFinder.release.xcconfig"; sourceTree = "<group>"; };
+		69E629B12317C378743AF95FD694490B /* Pods-ExitFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExitFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		906EED1A4240838F6DC64D53C8708FD1 /* DynamsoftCameraEnhancer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamsoftCameraEnhancer.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBCD86228D05CAD854149EB5D16EE87 /* DynamsoftCameraEnhancer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DynamsoftCameraEnhancer.h; path = DynamsoftCameraEnhancer.framework/Headers/DynamsoftCameraEnhancer.h; sourceTree = "<group>"; };
+		9FADD296D0478DA098603EABA3DBB341 /* DCECameraView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCECameraView.h; path = DynamsoftCameraEnhancer.framework/Headers/DCECameraView.h; sourceTree = "<group>"; };
+		A1E50C241EF5C71C9B34A84EEE974E77 /* Pods-ExitFinder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExitFinder-umbrella.h"; sourceTree = "<group>"; };
+		B7713F1958BDC4318D09EC892A1F9A11 /* Pods-ExitFinder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ExitFinder.modulemap"; sourceTree = "<group>"; };
+		BF896D17930332E5F02F4EBADB48A5D0 /* DynamsoftCameraEnhancer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DynamsoftCameraEnhancer.debug.xcconfig; sourceTree = "<group>"; };
+		CB9D09602EF1292266A0758DB0FF27CC /* Pods-ExitFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExitFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6A1FE6DC35CB98666AFA42B1845F05D /* Pods-ExitFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExitFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		E8201BE9FBE87B6135B0B42F28FC82B4 /* Pods-ExitFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExitFinder-dummy.m"; sourceTree = "<group>"; };
+		F3165E9E1760F9BABF67A18BF7090315 /* DCEBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DCEBase.h; path = DynamsoftCameraEnhancer.framework/Headers/DCEBase.h; sourceTree = "<group>"; };
+		FA2304A6FC891EF1B85FDE8413D6939B /* Pods-ExitFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExitFinder-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4028FC7C745FC4BD28C766914C1ECB57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B3533360175D9FCF06BC35610B1108 /* DynamsoftCameraEnhancer */ = {
+			isa = PBXGroup;
+			children = (
+				F3165E9E1760F9BABF67A18BF7090315 /* DCEBase.h */,
+				9FADD296D0478DA098603EABA3DBB341 /* DCECameraView.h */,
+				9EBCD86228D05CAD854149EB5D16EE87 /* DynamsoftCameraEnhancer.h */,
+				36B2DFC3D7A8848DD52FEA254845F06C /* DynamsoftCameraEnhancerSDK.h */,
+				64FFA1F994B6E0A6CA4E9DB454EE2195 /* Frameworks */,
+				646B058EB15CBF4839424E82B2E1270D /* Support Files */,
+			);
+			path = DynamsoftCameraEnhancer;
+			sourceTree = "<group>";
+		};
+		35700AA7534C1D39CBF4CA87C57140E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FFF523D7EFB9192A0CEA3DDC99C10A5 /* Pods-ExitFinder */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		646B058EB15CBF4839424E82B2E1270D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF896D17930332E5F02F4EBADB48A5D0 /* DynamsoftCameraEnhancer.debug.xcconfig */,
+				906EED1A4240838F6DC64D53C8708FD1 /* DynamsoftCameraEnhancer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DynamsoftCameraEnhancer";
+			sourceTree = "<group>";
+		};
+		64FFA1F994B6E0A6CA4E9DB454EE2195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48DB06CD042FA784756A3CC8A64E2113 /* DynamsoftCameraEnhancer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D03B0A7D1CABC5F51F749441D36B50C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B3533360175D9FCF06BC35610B1108 /* DynamsoftCameraEnhancer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C169A8063237017D0A7881C32A5AEFAA /* Pods-ExitFinder */ = {
+			isa = PBXGroup;
+			children = (
+				B7713F1958BDC4318D09EC892A1F9A11 /* Pods-ExitFinder.modulemap */,
+				69E629B12317C378743AF95FD694490B /* Pods-ExitFinder-acknowledgements.markdown */,
+				CB9D09602EF1292266A0758DB0FF27CC /* Pods-ExitFinder-acknowledgements.plist */,
+				E8201BE9FBE87B6135B0B42F28FC82B4 /* Pods-ExitFinder-dummy.m */,
+				FA2304A6FC891EF1B85FDE8413D6939B /* Pods-ExitFinder-frameworks.sh */,
+				504C9454FE1BF65CF2437B5551FE016B /* Pods-ExitFinder-Info.plist */,
+				A1E50C241EF5C71C9B34A84EEE974E77 /* Pods-ExitFinder-umbrella.h */,
+				D6A1FE6DC35CB98666AFA42B1845F05D /* Pods-ExitFinder.debug.xcconfig */,
+				636635B5578C7189CB85E0A0AC53A86D /* Pods-ExitFinder.release.xcconfig */,
+			);
+			name = "Pods-ExitFinder";
+			path = "Target Support Files/Pods-ExitFinder";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9D03B0A7D1CABC5F51F749441D36B50C /* Pods */,
+				35700AA7534C1D39CBF4CA87C57140E3 /* Products */,
+				DD3A1E20867235134349269FD3E0A594 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3A1E20867235134349269FD3E0A594 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C169A8063237017D0A7881C32A5AEFAA /* Pods-ExitFinder */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7A76981D1C0A88C9346BFA91BA12223C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F3C16BF61356B04E2E24630C580551 /* Pods-ExitFinder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E884B5EBBB8FC8E50451BB2453B60537 /* Pods-ExitFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 091E20BB699675CE8C972EF29799F8F9 /* Build configuration list for PBXNativeTarget "Pods-ExitFinder" */;
+			buildPhases = (
+				7A76981D1C0A88C9346BFA91BA12223C /* Headers */,
+				0D373839325CD79E55AFD60D03D08F87 /* Sources */,
+				4028FC7C745FC4BD28C766914C1ECB57 /* Frameworks */,
+				9010CA75039B70FF12EB91A0E611E826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686F308C87DD3093908D6D29A60C0AEE /* PBXTargetDependency */,
+			);
+			name = "Pods-ExitFinder";
+			productName = Pods_ExitFinder;
+			productReference = 3FFF523D7EFB9192A0CEA3DDC99C10A5 /* Pods-ExitFinder */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 35700AA7534C1D39CBF4CA87C57140E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9304EFECCF99FE99622F00B7C1781735 /* DynamsoftCameraEnhancer */,
+				E884B5EBBB8FC8E50451BB2453B60537 /* Pods-ExitFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9010CA75039B70FF12EB91A0E611E826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D373839325CD79E55AFD60D03D08F87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E02568CF94781853646D359DD0A32C /* Pods-ExitFinder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		686F308C87DD3093908D6D29A60C0AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DynamsoftCameraEnhancer;
+			target = 9304EFECCF99FE99622F00B7C1781735 /* DynamsoftCameraEnhancer */;
+			targetProxy = 894B45A9CA48C521FDB63938B43B3658 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049D011845A9D141D76F3C13C8CC00BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF896D17930332E5F02F4EBADB48A5D0 /* DynamsoftCameraEnhancer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3BCAD257A2710EC7449005044181ED50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6A1FE6DC35CB98666AFA42B1845F05D /* Pods-ExitFinder.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExitFinder/Pods-ExitFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExitFinder/Pods-ExitFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BD2D02F84B0E88E9ABC5D5CE459D97A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 906EED1A4240838F6DC64D53C8708FD1 /* DynamsoftCameraEnhancer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4B91A4777AC504EFF68883E6D31FA04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636635B5578C7189CB85E0A0AC53A86D /* Pods-ExitFinder.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ExitFinder/Pods-ExitFinder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ExitFinder/Pods-ExitFinder.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		091E20BB699675CE8C972EF29799F8F9 /* Build configuration list for PBXNativeTarget "Pods-ExitFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BCAD257A2710EC7449005044181ED50 /* Debug */,
+				F4B91A4777AC504EFF68883E6D31FA04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90AC22DCB1C5ED25A4203B4287FBFB3 /* Build configuration list for PBXAggregateTarget "DynamsoftCameraEnhancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049D011845A9D141D76F3C13C8CC00BB /* Debug */,
+				6BD2D02F84B0E88E9ABC5D5CE459D97A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
